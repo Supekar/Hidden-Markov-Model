@@ -1,0 +1,2 @@
+# Hidden-Markov-Model
+This is an implementation of first order Hidden Markov Model for speech tagging. Feature engineering is done to create the 3 matrices for HMM model training, prior, emission and transmission matrices. These matrices are then used by forwardbackward.py that implements a first order HMM by using the forward backward algorithm. The program proceeds to calculate negative log likelihood and accuracy and stores them in a file
